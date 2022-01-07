@@ -30,6 +30,7 @@ console.log(keyPressed);
 
 	if(keyPressed == '82') // add appropriate keycode
 	{
+		block_x = 50;
 		new_image('rr1.png');
 	}
 	if(keyPressed == '71')
@@ -40,7 +41,7 @@ console.log(keyPressed);
 	
 	if(keyPressed == '89')
 	{
-		block_x =350;
+		block_x = 350;
 		new_image('yr.png');
 	}
 	if(keyPressed == '80')
